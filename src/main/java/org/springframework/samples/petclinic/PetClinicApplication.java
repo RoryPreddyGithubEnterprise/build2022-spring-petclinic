@@ -29,8 +29,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PetClinicApplication {
 
 	public static void main(String[] args) {
-		//set the property spring devtools restart enabled to false
-
+		// set the property spring devtools restart enabled to false
 
 		System.setProperty("spring.devtools.restart.enabled", "false");
 		SpringApplication.run(PetClinicApplication.class, args);

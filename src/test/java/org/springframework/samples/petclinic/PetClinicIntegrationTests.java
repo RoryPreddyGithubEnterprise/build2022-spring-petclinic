@@ -55,6 +55,6 @@ class PetClinicIntegrationTests {
 		assertThat(result.getStatusCode()).isEqualTo(HttpStatus.OK);
 	}
 
-	//test for the new feature of the application (add a new pet)
+	// test for the new feature of the application (add a new pet)
 
 }
