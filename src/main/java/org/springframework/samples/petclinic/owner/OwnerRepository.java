@@ -79,4 +79,6 @@ public interface OwnerRepository extends Repository<Owner, Integer> {
 	@Transactional(readOnly = true)
 	Page<Owner> findAll(Pageable pageable);
 
+	// generate a query to find all the owners with a pet of a given type
+	
 }
