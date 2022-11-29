@@ -171,5 +171,4 @@ public class Owner extends Person {
 	}
 	// generate a hashcode for the owner object
 
-
 }
