@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/openjdk/jdk:11-mariner
+FROM mcr.microsoft.com/openjdk/jdk:17-mariner
 EXPOSE 8080
 ARG JAR=spring-petclinic-2.6.0-SNAPSHOT.jar
 COPY target/$JAR /app.jar
