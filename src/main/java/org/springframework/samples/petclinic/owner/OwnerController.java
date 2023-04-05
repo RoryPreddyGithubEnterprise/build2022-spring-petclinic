@@ -91,7 +91,7 @@ class OwnerController {
 			Model model) {
 
 		// print to the console the last name of the owner
-		System.out.println(" Owner last name: "+ owner.getLastName());
+		System.out.println("last name: "+ owner.getLastName());
 
 		// allow parameterless GET request for /owners to return all records
 		if (owner.getLastName() == null) {
